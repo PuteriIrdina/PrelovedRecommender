@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="My Preloved item Recommendation", page_icon="😁", layout= "wide")
 
 #-----HEADER SECTION --------
-with st.container()
+with st.container():
   st.subheader("Hi, Welcome to my recommender website")
   st.title("What is this website for?")
   st.write("This website will help you find the product you need and the seller to contact with")
