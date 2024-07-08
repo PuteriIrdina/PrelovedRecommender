@@ -15,7 +15,7 @@ with st.container():
   left_column, right_column = st.columns(2)
   with left_column:
     st.header("Register")
-    st.write("##")
+    #st.write("##")
     st.write(""" 
     So here you will register as a customer, you will insert you name, age, gender for the demographic and product category,condition and price for your 
     product preference.
